@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/download_sample_ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+
+        <Button
+            android:id="@+id/download_sample_BtnStart"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="开始"
+            android:layout_height="match_parent"
+            />
+        <Button
+            android:id="@+id/download_sample_BtnPause"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="暂停"
+            android:layout_height="match_parent"
+            />
+        <Button
+            android:id="@+id/download_sample_BtnReStart"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="重新开始"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+</LinearLayout>
